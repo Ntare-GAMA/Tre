@@ -9,6 +9,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Building, Mail, Lock } from "lucide-react"
 import Link from "next/link"
+import { useTranslation } from "@/lib/i18n/context"
 
 export default function HospitalLogin() {
   const [isSubmitting, setIsSubmitting] = useState(false)
